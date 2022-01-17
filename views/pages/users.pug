@@ -1,0 +1,12 @@
+html
+    head
+        title users
+    body
+        include ../partials/header
+
+        div
+            h1 users page
+            each user in users ? users : []
+                a(href="/users/" + user._id) #{user.username}
+                p hello
+                |

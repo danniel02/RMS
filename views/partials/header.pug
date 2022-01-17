@@ -1,0 +1,17 @@
+#header 
+    a(href="/") Home
+    |
+    a(href="/users") Users
+    |
+    if(session.loggedin)
+        a(href="/logout") Logout
+        |
+        a(href="/orders") Order Food
+        |
+        a(href="/users/") View Profile
+        |
+    else
+        a(href="/login") Login
+        |
+        a(href="/register") Register
+        |

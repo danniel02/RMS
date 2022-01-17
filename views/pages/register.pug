@@ -1,0 +1,15 @@
+html
+    head
+        title register
+body
+    include ../partials/header
+    div
+        h1 register page
+        form(action='/register', method='POST')
+            p username
+            input(type="text", value="",name="username")
+            |
+            p password
+            input(type="password", value="",name="password")
+            input(type="submit")
+

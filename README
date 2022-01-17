@@ -1,0 +1,3 @@
+Author: Danniel Kim
+Program: A full-stack web applciation that uses Node.js, Express, and Monogdb to organize data for users, 
+sessions, and orders for multiple restaurants.
